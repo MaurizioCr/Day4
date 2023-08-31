@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-image: url(img/sfondo.png);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Poppins:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Poppins:ital,wght@0,200;0,400;1,100&display=swap');
+
+/* margine di tutti i blocchi */
+.margine{
+    margin: 1em;
+    border-radius: 3px;
+}
+
+
+header{
+    
+    background: rgb(4,157,199);
+    background: radial-gradient(circle, rgba(4,157,199,1) 13%, rgba(4,128,199,1) 73%);
+    
+    
+}
+
+/* contenitore ::-webkit-meter-even-less-good-value */
+#immagine{
+    
+    width: 70vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    margin: 5vw;
+    margin-top: 5vw;
+    }
+
+    /* Immagine logo */
+img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* H1 header */
+header h1{
+    margin-top: 10vw;
+    color: white;
+    font-weight: bold;
+}
+
+/* Menù */
+nav ol{
+    margin-top: 5vw;
+    color: white;
+    padding-bottom: 5vw;
+}
+
+main{
+    background-color: white;
+    
+}
+
+/* Titolo blocco principale */
+main h1{
+    text-align: left;
+    padding-top: 5vw;
+    font-size: 3em;
+}
+
+/* Testo piccolo con icone in grigio */
+#grigio{
+    margin-top: 5vw;
+    color: gray;
+    margin-bottom: 5vw;
+    opacity: 0.8;
+}
+
+/* Spazio delle icone */
+i{
+    margin-right: 1vw;
+}
+
+main p{
+    text-align: left;
+    font-family: 'Freehand', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    margin-bottom: 5vw;
+}
+b{
+    font-weight: 400;
+    color: darkmagenta;
+    font-family: 'Freehand', cursive;
+font-family: 'Poppins', sans-serif;
+}
+main ul li{
+    text-align: left;
+    font-family: 'Freehand', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+main ul{
+    list-style: disc;
+    font-family: 'Freehand', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 7vw;
+    
+}
+span{
+    background-color: rgb(212, 212, 212);
+    border: solid rgb(118, 118, 118);;
+    border-radius: 5px;
+}
+.margine-top{
+    margin-top: 5vw;
+    text-align: left;
+}
+main ol li{
+    text-align: left;
+    font-family: 'Freehand', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+main ol{
+    list-style: decimal;
+    font-family: 'Freehand', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 7vw;
+    
+}
+/* h2{
+    da aggiungere em
+
+} */
+table{
+    border-bottom: 1px solid blue;
+}
+table tr{
+    margin-top: 10px;
+}
+a{
+    color: rgba(4, 125, 194, 0.957);
+}
+iframe{
+    border-radius: 20px;
+}
+.sfondo-grigio {
+    background-color: rgb(234, 234, 234);
+    margin-top: 10vw;
+   
+}
+.sfondo-grigio h2{
+    padding-top: 5vw;
+    padding-bottom: 10vw;
+}
+#sub{
+    border-bottom: dashed;
+}
+aside h2{
+    padding-top: 10vw;
+    
+}
+.sfondo-grigio p:first-child{
+    padding-top: 7vw;
+    padding-left: 5vw;
+    text-align: left;
+}
+aside i{
+    padding-left: 5vw;
+}
+.sfondo-grigio p:last-child{
+    text-align: right;
+    padding-right: 5vw;
+    padding-bottom: 10vw;
+    font-size: 10px;
+}
